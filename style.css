@@ -1,0 +1,52 @@
+#container {
+    display: grid;
+    /* grid: repeat(10, 60px) / auto-flow 80px;  */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+
+}
+
+#container>button {
+    background-color: #bf66;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.container1 {
+    display: flex;
+}
+
+#div1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 60px;
+}
+
+#div1>button {
+    background-color: #bf66;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.main {
+    width: 1293px;
+}
+
+.Question_no {
+    height: 90px;
+}
+
+#div1 {
+    margin-bottom: 55px;
+}
+
+#Question image {
+    height: 407px;
+    width: 1000px;
+}
